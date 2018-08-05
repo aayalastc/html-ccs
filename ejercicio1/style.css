@@ -1,0 +1,63 @@
+#principal{
+  background-color: #000000;
+  /*background-color: black;*/
+  width: 666px;
+  height: 500px;
+  border-radius: 20px;
+}
+#dvInicio{
+  width: 100%;
+  height:100%;
+}
+#dvTexto{
+  text-align: center;
+  padding: 20px;
+}
+#dvTexto label{
+  font-size: 25px;
+}
+#imgUsuario{
+  width: 14%;
+}
+#dvImg{
+  text-align: center;
+  padding: 5px 0px 15px 0px;
+}
+label{
+  color:#ffffff;
+}
+.renglon{
+  width: 100%;
+  height:100px;
+  text-align: center;
+}
+
+.renglon div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: start;
+}
+
+.renglon div label{
+  display: inline-block;
+  width: 359px;
+  height: 30px;
+  font-size: 22px;
+}
+
+.renglon div input{
+  display: inline-block;
+  width: 359px;
+  height: 42px;
+}
+
+#dvEntrar button{
+  color: #ffffff;
+  background-color: #53D769;
+  border-radius: 18px;
+  width: 359px;
+  height: 42px;
+  font-size: 22px;
+  border: 0px;
+}
